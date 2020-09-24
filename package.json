@@ -14,8 +14,8 @@
     "build": "yarn run clean && tsc",
     "start": "node ./dist/server/index.js",
     "dev": "dotenv nodemon",
-    "lint": "eslint './server/**/*' --fix",
-    "prettify": "prettier './server/**/*' --write"
+    "lint": "eslint './src/**/*' --fix",
+    "prettify": "prettier './src/**/*' --write"
   },
   "repository": {
     "type": "git",

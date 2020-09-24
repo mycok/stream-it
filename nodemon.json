@@ -2,5 +2,5 @@
   "verbose": false,
   "watch": ["./server", "./utils"],
   "ext": "ts",
-  "exec": "ts-node server/index.ts"
+  "exec": "ts-node src/index.ts"
 }
