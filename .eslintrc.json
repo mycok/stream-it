@@ -1,0 +1,61 @@
+{
+    "env": {
+        "browser": true,
+        "es2020": true
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "settings": {
+        "import/resolver": {
+          "node": {
+            "extensions": [".js", ".ts"]
+          }
+        },
+        "import/parsers": {
+          "@typescript-eslint/parser": [".ts"]
+        }
+      },
+      "overrides": [
+        {
+          "files": ["test/**/*", "**/?(*.)+(spec|test).[jt]s?(x)"],
+          "env": {
+            "mocha": true
+          },
+          "rules": {
+            "func-names": "off",
+            "prefer-arrow-callback": "off"
+          }
+        },
+        {
+          "files": ["server/database/data-abstracts/**/*"],
+          "rules": {
+            "func-names": "off",
+            "prefer-arrow-callback": "off"
+          }
+        }
+      ],
+    "rules": {
+    "import/prefer-default-export": "off",
+    "prefer-destructuring": "off",
+    "no-useless-escape": "off",
+    "no-underscore-dangle": "off",
+    "import/extensions": "off",
+    "import/no-extraneous-dependencies": "off",
+    "class-methods-use-this": "off",
+    "import/first": "off",
+    "no-unused-vars": "off",
+    "no-restricted-syntax": "off",
+    "no-await-in-loop": "off",
+    "no-return-await": "off",
+    "quote-props": "off"
+    }
+}

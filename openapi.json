@@ -1,0 +1,30 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "stream-it",
+        "version": "1.0.0",
+        "contact": {
+            "name": "myco",
+            "email": "mycovan@gmail.com"
+        }
+    },
+    "servers": [
+        {
+          "url": "https://stream-it-api.herokuapp.com"
+        }
+    ],
+    "components": {
+        "responses": {
+
+        },
+        "schemas": {
+
+        },
+        "securitySchemes": {
+            
+        }
+    },
+    "paths": {
+
+    }
+}

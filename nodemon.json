@@ -1,0 +1,6 @@
+{
+  "verbose": false,
+  "watch": ["./server", "./utils"],
+  "ext": "ts",
+  "exec": "ts-node server/index.ts"
+}
